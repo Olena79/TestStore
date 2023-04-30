@@ -26,91 +26,79 @@ router.get('/index-1', function (req, res) {
 
   //            ↙ cюди вводимо назву файлу з сontainer
   res.render('index-1', {
-    layout: 'index-1',
+    layout: 'default',
   })
   //                  ↑↑ сюди вводимо JSON дані
 })
 
 // ================================================================
 
-router.get('/index-1-1', function (req, res) {
+router.get('/index-1-kuk', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index-1-1', {
-    layout: 'index-1',
+  res.render('index-1-kuk', {
+    layout: 'default',
   })
   //                  ↑↑ сюди вводимо JSON дані
 })
 
 // ================================================================
 
-router.get('/index-1-1-kuk', function (req, res) {
+router.get('/index-1-ban', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index-1-1-kuk', {
-    layout: 'index-1',
+  res.render('index-1-ban', {
+    layout: 'default',
   })
   //                  ↑↑ сюди вводимо JSON дані
 })
 
 // ================================================================
 
-router.get('/index-1-1-ban', function (req, res) {
+router.get('/index-1-lem', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index-1-1-ban', {
-    layout: 'index-1',
+  res.render('index-1-lem', {
+    layout: 'default',
   })
   //                  ↑↑ сюди вводимо JSON дані
 })
 
 // ================================================================
 
-router.get('/index-1-1-lem', function (req, res) {
+router.get('/index-1-cof', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index-1-1-lem', {
-    layout: 'index-1',
+  res.render('index-1-cof', {
+    layout: 'default',
   })
   //                  ↑↑ сюди вводимо JSON дані
 })
 
 // ================================================================
 
-router.get('/index-1-1-cof', function (req, res) {
+router.get('/index-1-fran', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index-1-1-cof', {
-    layout: 'index-1',
+  res.render('index-1-fran', {
+    layout: 'default',
   })
   //                  ↑↑ сюди вводимо JSON дані
 })
 
 // ================================================================
 
-router.get('/index-1-1-fran', function (req, res) {
+router.get('/index-1-parm', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index-1-1-fran', {
-    layout: 'index-1',
-  })
-  //                  ↑↑ сюди вводимо JSON дані
-})
-
-// ================================================================
-
-router.get('/index-1-1-parm', function (req, res) {
-  // res.render генерує нам HTML сторінку
-
-  //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index-1-1-parm', {
-    layout: 'index-1',
+  res.render('index-1-parm', {
+    layout: 'default',
   })
   //                  ↑↑ сюди вводимо JSON дані
 })
